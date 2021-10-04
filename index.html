@@ -6535,8 +6535,8 @@
 										<img src="./tempname993.github.io_files/none.png" class="mint-image"
 										     style="width: 80px; height: 80px; border-radius: 50%; margin: 3px;"></div>
 									<div class="xsxx">
-										<div id="NameAndID">王名一&nbsp;&nbsp;20181000860</div>
-										<div id="AcademyAndClass">计算机学院/192181</div>
+										<div id="NameAndID">魏成涛&nbsp;&nbsp;20181003046</div>
+										<div id="AcademyAndClass">环境学院/042182</div>
 									</div>
 								</div>
 								<div class="mint-text wcsq-erm-title mt-color-grey">临时进校二维码</div> <!---->
@@ -6779,12 +6779,12 @@
 		return false;
 	}
 
-	document.getElementById("NameAndID").innerText = `${getQueryVariable("name") || "王名一"} ${getQueryVariable("id")
-	|| 20181000860}`;
+	document.getElementById("NameAndID").innerText = `${getQueryVariable("name") || "魏成涛"} ${getQueryVariable("id")
+	|| 20181003046}`;
 	document.getElementById("AcademyAndClass").innerText =
-			`${getQueryVariable("academy") || '计算机学院'}/${getQueryVariable("class") || 192181}`;
+			`${getQueryVariable("academy") || '环境学院'}/${getQueryVariable("class") || 042182}`;
 	var qrcode = new QRCode(document.getElementById("QRcode"), {
-		text: `${getQueryVariable("id") || 20181000860}`,
+		text: `${getQueryVariable("id") || 20181003046}`,
 		width: 150,
 		height: 150,
 		colorDark : "#ef76f1",
